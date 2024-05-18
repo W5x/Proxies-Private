@@ -143,8 +143,8 @@ Yellow='\033[0;33m'
 NC='\033[0m'
 echo -e "${NC}"
 
-echo -e "${GREEN}HTTP Browser   : http://$external_ip:3128:$username:$password${NC}"
-echo -e "${GREEN}SOCKS5 Browser : socks5://$external_ip:9098:$username:$password${NC}"
+echo -e "${GREEN}HTTP Browser     : http://$external_ip:3128:$username:$password${NC}"
+echo -e "${GREEN}SOCKS5 Browser   : socks5://$external_ip:9098:$username:$password${NC}"
 echo -e "${RED}HTTP Bot         : http://$username:$password@$external_ip:3128${NC}"
 echo -e "${RED}SOCKS5 Bot       : socks5://$username:$password@$external_ip:9098${NC}"
 echo
