@@ -19,7 +19,7 @@ while [[ $username = "" ]]; do
 done
 
 # Enter the proxy user password
-password="012010"
+password="500500"
 while [[ $password = "" ]]; do
     echo "Enter the proxy password"
     read -p "password: " password
