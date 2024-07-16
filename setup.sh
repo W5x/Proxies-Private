@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Enter the username
-username="trust"
+username="girgis"
 while [[ $username = "" ]]; do
     echo "Enter the proxy username"
     read -p "username: " username
@@ -19,7 +19,7 @@ while [[ $username = "" ]]; do
 done
 
 # Enter the proxy user password
-password="123321"
+password="500500"
 while [[ $password = "" ]]; do
     echo "Enter the proxy password"
     read -p "password: " password
